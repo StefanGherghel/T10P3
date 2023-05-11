@@ -33,4 +33,5 @@ fun main() = runBlocking {
     jobs.forEach(){it.join()}
     rezz.forEach(){println("valoare rezultat: "+it.toString())}
     println("Timp scurs: $time")
+
 }
